@@ -1,0 +1,14 @@
+/* footer Css */
+.main-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    top: 10px;
+    width: 100%;
+    position: relative;
+}
+#wrap{
+	min-height: 100%;
+	position: relative;
+}

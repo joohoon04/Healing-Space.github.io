@@ -1,0 +1,85 @@
+.map {
+    width: 1000px;
+    height: 875px;
+    margin: auto;
+    display: block;
+  }
+
+  .description {
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-family: "Arial", sans-serif;
+  }
+  
+  .description h4 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .description img {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+
+  .rating-select {
+    margin-left: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+  }
+  
+ .close-button {
+    margin-top: 8px;
+    padding: 6px 10px;
+    font-size: 13px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+  }
+  
+  .close-button {
+    background-color: #f44336;
+  }
+
+  .log-button {
+  margin-top: 8px;
+  padding: 6px 10px;
+  font-size: 13px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+.notification-bar {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  animation: fadeInOut 2s ease-in-out;
+}
+
+@keyframes fadeInOut {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}

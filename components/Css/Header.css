@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-color: #333;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: calc(100vh * 50 / 1920);
+    margin-left: calc(100vh * 50 / 1920);
+    font-weight: 700;
+}
+li a{
+    text-decoration-line: none;
+    color: #badd7f;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    margin: -4px;
+    background-image: url("../../images/LOGO1.svg");
+    background-size: contain;
+    background-color: white;
+    background-repeat: no-repeat;
+}

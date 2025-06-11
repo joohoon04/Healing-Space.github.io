@@ -1,0 +1,74 @@
+.Animals-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 66px;
+    justify-items: center;
+    margin-bottom: 40px;
+    padding: 20px 130px 20px 130px;
+}
+
+.Animals-text{
+    display: flex;
+    align-items: center;
+}
+
+.Animals-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 160px;
+  /* overflow: hidden; */
+}
+
+.tag-list {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  margin: 0 8px 5px 0;
+  padding: 4px 8px;
+  background-color: #eee;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s;
+}
+
+.tag:hover {
+  background-color: #ccc;
+}
+
+.Animals-grid > div {
+  width: 300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.Animals-image {
+  margin-bottom: 20px;
+}
+
+.tag-reset {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.tag-reset button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.tag-reset button:hover {
+  background-color: #666;
+}

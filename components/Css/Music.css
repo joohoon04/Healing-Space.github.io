@@ -1,0 +1,113 @@
+.music-wrapper {
+    padding: 51px 51px 180px 51px;
+    background: #f9f9f9;
+    font-family: sans-serif;
+  }
+  
+  h3 {
+    margin: 20px 0 10px;
+  }
+  
+  .music-row {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 30px;
+    padding-bottom: 20px;
+    overflow-x: auto;
+  }
+  
+  .music-card {
+    background: #eee;
+    padding: 30px;
+    width: 192px;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+  }
+  .music-card:hover {
+    transform: scale(1.05);
+    background: #badd7f;
+    color: #fff;
+  }
+  .music-card img {
+    border-radius: 6px;
+    object-fit: cover;
+  }
+  .music-title {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .music-image{
+    width: 182px;
+    height: 182px;
+  }
+  
+  .music-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #aaa;
+    /* height: 7.9rem; */
+    /* z-index: 2; */
+  }
+  
+.bookmark-btn {
+  margin-top: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+  
+  .music-controls {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.music-controls button {
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+  .progress-volume {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .progress-volume input[type='range'] {
+    height: 4px;
+    accent-color: #badd7f;
+  }
+  .current-track-info {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center; /* 중앙 정렬 */
+}
+
+.current-track-title {
+    color: #fff; /* 제목 색상 */
+}
+
+.controls button {
+    font-size: 20px;
+    margin: 0 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+  }
